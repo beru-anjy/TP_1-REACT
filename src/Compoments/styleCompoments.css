@@ -1,0 +1,120 @@
+.exo1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exo1-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.exo1-textarea {
+  background: linear-gradient(#6c6c6c #4a4a4a);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18xp;
+  width: 100%;
+  height: 88%;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+  transition: 0.25s ease;
+}
+
+.exo1-textarea:focus {
+  box-shadow: 0 0 8px blue;
+}
+
+.exo1-info {
+  font-size:  14px;
+  color: #555;
+}
+
+.exo2-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.exo2-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+} */
+
+.exo3-container {
+    text-align: center;
+}
+
+.exo3-button {
+    font-size: 18px;
+    padding: 12px 25px;
+    background: #007bff;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.exo3-button:hover {
+    background: #0056d2;
+    transform: scale(1.05);
+}
+
+.exo3-button:active {
+    transform: scale(0.95);
+}
+
+.compteur-card {
+    border-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0,12);
+}
+
+.compteur-number {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: magenta;
+}
+
+.compteur-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-plus {
+    background: #28a745;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-reset {
+    background: #dc3545 ;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-reset:hover {
+  background: #b52a36;
+}
